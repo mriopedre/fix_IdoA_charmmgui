@@ -20,8 +20,8 @@ Example usage:
 
 Where $fol is the target folder where all the simulation files are stored:
 
-    -$fol/wrong.gro - gro file with wrong configuration, as gotten from charmm-gui (often called step3_input.gro). It can be the full system as well as the IdoA0containing molecule alone.
-    -$fol/mol.itp - itp file for the IdoA-containing molecule, as gotten from charmm-gui (often, CARB.itp).
+    -c $fol/wrong.gro - gro file with wrong configuration, as gotten from charmm-gui (often called step3_input.gro). It can be the full system as well as the IdoA0containing molecule alone.
+    -i $fol/mol.itp - itp file for the IdoA-containing molecule, as gotten from charmm-gui (often, CARB.itp).
     -p $fol/topol.top - system topology as gotten from charmm-gui (often, topol.top).
     -r $fol/restr_invert_S.itp - output name for the restrain file used for the simulation. Any name would work here.
     -o $fol/01-correct - output name for the simulation results.
